@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+// スマホ版のデザインを記述
+@mixin sp() {
+  @media screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+// タブレットのデザインを記述
+@mixin tablet() {
+  @media screen and (max-width: 1080px) {
+    @content;
+  }
+}

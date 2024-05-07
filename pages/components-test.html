@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/styles/reset.css">
+  <link rel="stylesheet" href="/assets/styles/index.css">
+  <link rel="stylesheet" href="/assets/styles/components.css">
+  <script src="/scripts/componentsTest.js"></script>
+  <title>Keiji Itakura</title>
+</head>
+<body>
+
+  <!-- More Btn -->
+  <div class="more_btn-wrapper">
+    <button onclick="onPaperObserved()">
+      <span>More</span>
+    </button>
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.9166 10H0.416626" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="arrow-right-svg-elem-1"/>
+      <path d="M11.55 3.6333L17.9167 9.99997L11.55 16.3666" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="arrow-right-svg-elem-2"/>
+    </svg>
+  </div>
+
+  <!-- hobbyアイコン -->
+  <div class="hobby-icon-wrapper">
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_8_47)">
+      <path d="M8.36002 27.4801C9.76651 27.4801 10.9067 26.3399 10.9067 24.9334C10.9067 23.5269 9.76651 22.3867 8.36002 22.3867C6.95354 22.3867 5.81335 23.5269 5.81335 24.9334C5.81335 26.3399 6.95354 27.4801 8.36002 27.4801Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="hobby-right-svg-elem-1"></path>
+      <path d="M22.36 27.4801C23.7665 27.4801 24.9067 26.3399 24.9067 24.9334C24.9067 23.5269 23.7665 22.3867 22.36 22.3867C20.9535 22.3867 19.8134 23.5269 19.8134 24.9334C19.8134 26.3399 20.9535 27.4801 22.36 27.4801Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="hobby-right-svg-elem-2"></path>
+      <path d="M19.8133 24.9333H10.9067" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="hobby-right-svg-elem-3"></path>
+      <path d="M24.9067 24.9333H30V19.3866C30.0014 18.8052 29.8037 18.2407 29.4399 17.7871C29.076 17.3335 28.5679 17.0181 28 16.8933L24.9067 16.2666C24.6677 16.2271 24.4375 16.1459 24.2267 16.0266C23.7512 15.7869 23.3673 15.3983 23.1333 14.92L22.9067 14.4533C22.371 13.3902 21.5493 12.4975 20.5342 11.8757C19.519 11.2538 18.3505 10.9275 17.16 10.9333H12.2133C10.7015 10.9378 9.22535 11.3932 7.97366 12.2411C6.72197 13.089 5.75161 14.291 5.18667 15.6933C5.00257 16.1714 4.67925 16.5833 4.25851 16.8757C3.83777 17.1681 3.33898 17.3275 2.82667 17.3333H2V24.9333H5.81333" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="hobby-right-svg-elem-4"></path>
+      <path d="M24.1733 16.0266H13.4533" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="hobby-right-svg-elem-5"></path>
+      <path d="M17.28 10.9467H12.1866L13.4533 5.85339H16L17.28 10.9467Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="hobby-right-svg-elem-6"></path>
+      </g>
+      <defs>
+      <clipPath id="clip0_8_47">
+      <rect width="32" height="32" fill="white" class="hobby-right-svg-elem-7"></rect>
+      </clipPath>
+      </defs>
+    </svg>
+  </div>
+
+  <!-- productsアイコン -->
+  <div class="products-icon-wrapper">
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M24.9067 2H7.09333L2 10.9067V30H30V10.9067L24.9067 2Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="products-svg-elem-1"></path>
+      <path d="M5.81335 24.9066H10.9067" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="products-svg-elem-2"></path>
+      <path d="M16 2V16" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="products-svg-elem-3"></path>
+      <path d="M2 10.9066H30" stroke="black" stroke-width="1.5" stroke-miterlimit="10" class="products-svg-elem-4"></path>
+    </svg>
+  </div>
+
+  <!-- profileアイコン -->
+  <div class="profile-icon-wrapper">
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" width="24" height="24" color="#000000">
+      <defs>
+        <style>
+          .cls-637b88e7f95e86b59c57a204-1 {
+            fill: none;
+            stroke: currentColor;
+            stroke-miterlimit: 10;
+          }
+          .cls-637b88e7f95e86b59c57a204-2 {
+            fill: currentColor;
+          }
+        </style>
+      </defs>
+      <polyline class="cls-637b88e7f95e86b59c57a204-1 access-svg-elem-1" points="17.17 20.03 22.5 21.55 22.5 4.36 15.82 2.46 8.18 4.36 1.5 2.46 1.5 19.64 8.18 21.55 14.43 19.98"></polyline>
+      <path class="cls-637b88e7f95e86b59c57a204-1 access-svg-elem-2" d="M19.64,15.58c0,2.39-3.82,6-3.82,6S12,18,12,15.58A3.7,3.7,0,0,1,15.82,12,3.7,3.7,0,0,1,19.64,15.58Z"></path>
+      <circle class="cls-637b88e7f95e86b59c57a204-2 access-svg-elem-3" cx="15.82" cy="15.82" r="0.95"></circle>
+      <line class="cls-637b88e7f95e86b59c57a204-1 access-svg-elem-4" x1="8.18" y1="4.36" x2="8.18" y2="21.55"></line>
+      <line class="cls-637b88e7f95e86b59c57a204-1 access-svg-elem-5" x1="15.82" y1="2.45" x2="15.82" y2="12"></line>
+    </svg>
+  </div>
+
+  <!-- accessアイコン -->
+  <div class="access-icon-wrapper">
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+      width="24" height="24" color="#000000">
+      <defs>
+        <style>
+          .cls-637b88e7f95e86b59c57a204-1 {
+            fill: none;
+            stroke: currentColor;
+            stroke-miterlimit: 10;
+          }
+          .cls-637b88e7f95e86b59c57a204-2 {
+            fill: currentColor;
+          }
+        </style>
+      </defs>
+      <polyline class="cls-637b88e7f95e86b59c57a204-1"
+        points="17.17 20.03 22.5 21.55 22.5 4.36 15.82 2.46 8.18 4.36 1.5 2.46 1.5 19.64 8.18 21.55 14.43 19.98"></polyline>
+      <path class="cls-637b88e7f95e86b59c57a204-1"
+        d="M19.64,15.58c0,2.39-3.82,6-3.82,6S12,18,12,15.58A3.7,3.7,0,0,1,15.82,12,3.7,3.7,0,0,1,19.64,15.58Z"></path>
+      <circle class="cls-637b88e7f95e86b59c57a204-2" cx="15.82" cy="15.82" r="0.95"></circle>
+      <line class="cls-637b88e7f95e86b59c57a204-1" x1="8.18" y1="4.36" x2="8.18" y2="21.55"></line>
+      <line class="cls-637b88e7f95e86b59c57a204-1" x1="15.82" y1="2.45" x2="15.82" y2="12"></line>
+    </svg>
+  </div>
+
+  <!-- 画像フレーム -->
+  <div class="flex gap2">
+    <div class="img-frame-wrapper" style="width: 320px; height: 400px;">
+      <div class="border-top-right"></div>
+      <div class="border-bottom-left"></div>
+      <img src="../assets/imgs/profile-top-image.jpg" alt="">
+    </div>
+    <div class="img-frame-wrapper-not-full-length" style="width: 320px; height: 400px;">
+      <div class="border-top-right"></div>
+      <div class="border-bottom-left"></div>
+      <img src="../assets/imgs/profile-top-image.jpg" alt="">
+    </div>
+  </div>
+
+</body>
+</html>
